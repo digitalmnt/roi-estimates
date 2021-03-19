@@ -1,0 +1,40 @@
+table {
+  overflow-x:auto;
+  table-layout: auto;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #49515f;
+  max-width: 100%;
+}
+tr {
+  font-size: .9em;
+}
+td {
+  border: solid 1px #49515f;
+  padding: 5px;
+  font-size: .7em;
+  cursor: zoom-in;
+}
+div {
+  outline: unset !important;
+  overflow: unset;
+  display: inline-block;
+}
+.attribute {
+  font-size: .3em;
+  color: white;
+}
+.notes {
+  border: solid 1px #49515f;
+  padding: 5px;
+  font-size: .7em;
+  margin: 1rem; 
+}
+
+.notes a {
+  color: white;
+  text-decoration: underline;
+}
+.notes div {
+  margin: 5px;
+}
